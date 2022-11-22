@@ -4,7 +4,9 @@ let home_or_lab_ = prompt ("[1] Go home [2] Stay a little longer and explore");
 
 if(home_or_lab == 1) {
 
-let car_or_lab = prompt ("You hastily lock the door and head to your car. Despite the pleasant cool of the night air you, you feel an eerie sense that someone is watching you. Dark shapes begin to appear in the corners of your eyes. You begin to run. [1] Run to the car [2] Run back to the lab");
+alert("You hastily lock the door and head to your car. Despite the pleasant cool of the night air you, you feel an eerie sense that someone is watching you. Dark shapes begin to appear in the corners of your eyes. You begin to run.");
+
+let car_or_lab = prompt ("[1] Run to the car [2] Run back to the lab");
 
 if(car_or_lab == 1){
 
@@ -22,7 +24,9 @@ alert("You slam into the door only to find it locked. Searching though your pock
 
 else{
 
-let save_or_spare = prompt ("Curiosity overwhelms you. There's something you've always wanted to see. You carefully make your way towards an old and forgotten experiment. You unveil the contents: a small box with a strange creature stuck inside. It cries out in horror at the sight of you. [1] Leave it be [2] Free it");
+alert("Curiosity overwhelms you. There's something you've always wanted to see. You carefully make your way towards an old and forgotten experiment. You unveil the contents: a small box with a strange creature stuck inside. It cries out in horror at the sight of you.");
+
+let save_or_spare = prompt ("[1] Leave it be [2] Free it");
 
 if (save_or_spare == 1){
 
