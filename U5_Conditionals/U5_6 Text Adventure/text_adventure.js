@@ -1,4 +1,4 @@
-alert("It's late. You've just finished your work at the lab and are heady to head home.");
+alert("It's late. You've just finished your work at the lab and are ready to head home.");
 let home_or_lab = prompt ("[1] Go home [2] Stay a little longer and explore");
 if(home_or_lab == 1) {
 let car_or_lab = prompt ("You hastily lock the door and head to your car. Despite the pleasant cool of the night air you, you feel an eerie sense that someone is watching you. Dark shapes begin to appear in the corners of your eyes. You begin to run. [1] Run to the car [2] Run back to the lab");
