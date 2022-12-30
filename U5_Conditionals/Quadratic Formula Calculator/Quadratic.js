@@ -8,6 +8,6 @@ CalcQuadratic.oneclick = function(){
    let firstCoefficient = elfirstCoefficient.value;
    let secondCoefficient = elsecondCoefficient.value;
    let thirdCoefficient = elthirdCoefficient.value;
-   let sphereVolume = 4/3*Math.PI*sphereRadius**3;
-elSphereVolume.value = sphereVolume;
+   let quadraticSolution = (-secondCoefficient+sqrt(secondCoefficient**2-4(firstCoefficient*thirdCoefficient))/(2*firstCoefficient);
+elQuadraticSolution.value = quadraticSolution;
 }
