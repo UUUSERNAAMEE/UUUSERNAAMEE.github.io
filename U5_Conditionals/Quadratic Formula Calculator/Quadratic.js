@@ -1,9 +1,13 @@
-let elSphereRadius = document.getElementById("sphere-radius");
-let elSphereVolume = document.getElementById("sphere-volume");
-let CalcSphereVolume = document.getElementById("calc-sphere-volume");
+let elFirstCoefficient = document.getElementById("first-coefficient");
+let elSecondCoefficient = document.getElementById("second-coefficient");
+let elThirdCoefficient = document.getElementById("third-coefficient");
+let elQuadraticSolution = document.getElementById("quadratic-solution");
+let CalcQuadratic = document.getElementById("calc-quadratic");
  
-CalcSphereVolume.oneclick = function(){
-   let sphereRadius = elSphereRadius.value;
+CalcQuadratic.oneclick = function(){
+   let firstCoefficient = elfirstCoefficient.value;
+   let secondCoefficient = elsecondCoefficient.value;
+   let thirdCoefficient = elthirdCoefficient.value;
    let sphereVolume = 4/3*Math.PI*sphereRadius**3;
 elSphereVolume.value = sphereVolume;
 }
