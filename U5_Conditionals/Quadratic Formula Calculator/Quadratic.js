@@ -31,4 +31,5 @@ CalcQuadratic.oneclick = function(){
       let imagionary = (Math.sqrt(-piece) / (2 * firstCoefficient)).toFixed(2);
       elQuadraticSolutionA.value = quadraticSolutionA;
       elQuadraticSolutionB.value = quadraticSolutionB;
+   }
 }
