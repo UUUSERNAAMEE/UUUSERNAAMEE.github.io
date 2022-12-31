@@ -16,20 +16,20 @@ CalcQuadratic.oneclick = function(){
    if (piece > 0) {
       let QuadraticSolutionA = (-secondCoefficient + Math.sqrt(piece))/(2*firstCoefficient);
       let QuadraticSolutionB = (-secondCoefficient - Math.sqrt(piece))/(2*firstCoefficient);
-   elQuadraticSolutionA.value = quadraticSolutionA;
-   elQuadraticSolutionB.value = quadraticSolutionB;
+   elQuadraticSolutionA.value = QuadraticSolutionA;
+   elQuadraticSolutionB.value = QuadraticSolutionB;
    }
    
    else if (piece == 0) {
       QuadraticSolutionA = QuadraticSolutionB= -secondCoefficient / (2*firstCoefficient);
-      elQuadraticSolutionA.value = quadraticSolutionA;
-      elQuadraticSolutionB.value = quadraticSolutionB;
+      elQuadraticSolutionA.value = QuadraticSolutionA;
+      elQuadraticSolutionB.value = QuadraticSolutionB;
    }
    
    else {
       let real = (-secondCoefficient / (2*firstCoefficient)).toFixed(2);
       let imagionary = (Math.sqrt(-piece) / (2 * firstCoefficient)).toFixed(2);
-      elQuadraticSolutionA.value = quadraticSolutionA;
-      elQuadraticSolutionB.value = quadraticSolutionB;
+      elQuadraticSolutionA.value = QuadraticSolutionA;
+      elQuadraticSolutionB.value = QuadraticSolutionB;
    }
 }
