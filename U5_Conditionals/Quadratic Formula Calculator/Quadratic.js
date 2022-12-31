@@ -29,8 +29,8 @@ CalcQuadratic.oneclick = function(){
    }
    
    else {
-      let real = (-secondCoefficient / (2*firstCoefficient)).toFixed(2);
-      let imagionary = (Math.sqrt(-piece) / (2 * firstCoefficient)).toFixed(2);
+      let real = (-secondCoefficient / (2*firstCoefficient));
+      let imagionary = (Math.sqrt(-piece) / (2 * firstCoefficient));
       elQuadraticSolutionA.value = QuadraticSolutionA;
       elQuadraticSolutionB.value = QuadraticSolutionB;
       console.log("the value(s) of x are " +QuadraticSolutionA+", " +QuadraticSolutionB+".";
