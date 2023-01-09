@@ -18,14 +18,14 @@ CalcQuadratic.oneclick = function(){
       let QuadraticSolutionB = (-secondCoefficient - Math.sqrt(piece))/(2*firstCoefficient);
    elQuadraticSolutionA.value = QuadraticSolutionA;
    elQuadraticSolutionB.value = QuadraticSolutionB;
-      console.log("the value(s) of x are " +QuadraticSolutionA+", " +QuadraticSolutionB+".";
+      console.log("the value(s) of x are " +QuadraticSolutionA+", " +QuadraticSolutionB+".");
    }
    
    else if (piece == 0) {
       QuadraticSolutionA = QuadraticSolutionB= -secondCoefficient / (2*firstCoefficient);
       elQuadraticSolutionA.value = QuadraticSolutionA;
       elQuadraticSolutionB.value = QuadraticSolutionB;
-      console.log("the value(s) of x are " +QuadraticSolutionA+", " +QuadraticSolutionB+".";
+      console.log("the value(s) of x are " +QuadraticSolutionA+", " +QuadraticSolutionB+".");
    }
    
    else {
@@ -33,6 +33,6 @@ CalcQuadratic.oneclick = function(){
       let imagionary = (Math.sqrt(-piece) / (2 * firstCoefficient));
       elQuadraticSolutionA.value = QuadraticSolutionA;
       elQuadraticSolutionB.value = QuadraticSolutionB;
-      console.log("the value(s) of x are " +QuadraticSolutionA+", " +QuadraticSolutionB+".";
+      console.log("the value(s) of x are " +QuadraticSolutionA+", " +QuadraticSolutionB+".");
    }
 }
