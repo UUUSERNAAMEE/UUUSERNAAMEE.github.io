@@ -8,9 +8,9 @@ let elQuadraticSolutionB = document.getElementById("quadratic-solution-b");
 let CalcQuadratic = document.getElementById("calc-quadratic");
 
 CalcQuadratic.onclick = function(){
-   let firstCoefficient = elfirstCoefficient.value;
-   let secondCoefficient = elsecondCoefficient.value;
-   let thirdCoefficient = elthirdCoefficient.value;
+   let firstCoefficient = elFirstCoefficient.value;
+   let secondCoefficient = elSecondCoefficient.value;
+   let thirdCoefficient = elThirdCoefficient.value;
    let piece = secondCoefficient**2-4*firstCoefficient*thirdCoefficient;
    
    if (piece > 0) {
