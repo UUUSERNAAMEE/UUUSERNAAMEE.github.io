@@ -7,7 +7,7 @@ let elQuadraticSolutionB = document.getElementById("quadratic-solution-b");
 
 let CalcQuadratic = document.getElementById("calc-quadratic");
 
-CalcQuadratic.oneclick = function(){
+CalcQuadratic.onclick = function(){
    let firstCoefficient = elfirstCoefficient.value;
    let secondCoefficient = elsecondCoefficient.value;
    let thirdCoefficient = elthirdCoefficient.value;
